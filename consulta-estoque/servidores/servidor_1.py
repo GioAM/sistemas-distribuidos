@@ -24,9 +24,6 @@ def get_stock():
 def response(product_id):
     print("Consultando estoque...")
     stock = get_stock()
-    print(stock.keys())
-    print(product_id)
-    print(product_id in stock.keys())
     if product_id in stock.keys():
         if int(stock[product_id]) > 0:
             status = "available"
@@ -53,4 +50,4 @@ while True:
     data = json.dumps(response(product_id))
     con.sendall(bytes(data, encoding="UTF-8"))
     print("Enviando cotação para o produto " + product_id)
-
+    print(" ")

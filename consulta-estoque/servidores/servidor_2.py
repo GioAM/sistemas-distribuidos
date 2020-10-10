@@ -50,4 +50,4 @@ while True:
     data = json.dumps(response(product_id))
     con.sendall(bytes(data, encoding="UTF-8"))
     print("Enviando cotação para o produto " + product_id)
-
+    print(" ")
