@@ -5,6 +5,7 @@ import csv
 HOST = ''  # Endereco IP do Servidor
 PORT = 5003  # Porta que o Servidor esta
 tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+store_name = "LOJA PASSO FUNDO"
 
 origin = (HOST, PORT)
 tcp.bind(origin)
@@ -35,6 +36,7 @@ def response(product_id):
         status = "not_exist"
         stock = 0
     info = {
+        'store': store_name,
         'status': status,
         'stock': stock
     }
