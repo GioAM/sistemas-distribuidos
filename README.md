@@ -6,7 +6,7 @@
 ### Linguagem Utilizada: 
  - Python
  
-### Bibliotecas utilizadas: 
+### Pacotes: 
 - Socket
 - JSON
 - CSV
