@@ -12,7 +12,7 @@
 - CSV
 
 ### Atores
- - Servidores: servem para consultar os estoques das lojas em uma planilha no formato .csv.
+ - Servidores: Servem para consultar os estoques das lojas em uma planilha no formato .csv.
  - Servente: Recebe a requisição do cliente e solicita para todos os servidores, cada um se referindo a uma loja diferente.
  - Cliente: Recebe por meio do console o id do produto e solicita ao servidor o estoque daquele produto.
 
