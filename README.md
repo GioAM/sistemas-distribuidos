@@ -3,8 +3,8 @@
  
  --------------------
 ## Trabalho consulta-estoque
-### Linguagens Utilizadas: 
- -Python
+### Linguagem Utilizada: 
+ - Python
  
 ### Bibliotecas utilizadas: 
 - Socket
